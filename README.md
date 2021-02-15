@@ -659,7 +659,7 @@ In Budget.js:
 
 When the `Add` button is clicked, the AddPurchase component will invoke this.props.addPurchase and pass in the price, description, and category as arguments. Take a look at the AddPurchase component if you want (line 27).
 
-* Pass `this.props.removePurchase` to the DisplayPurchases component on a props called `removePurchase`.
+* Pass `this.props.removePurchase` to the DisplayPurchases component on a prop called `removePurchase`.
 
 Go ahead and try adding and removing purchases. You should see the charts react as data is added and removed.
 
